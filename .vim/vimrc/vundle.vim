@@ -49,5 +49,8 @@ Plugin 'cespare/vim-toml'
 " go-explorer
 Plugin 'garyburd/go-explorer'
 
+" git wrapper
+Plugin 'tpope/vim-fugitive' 
+
 call vundle#end()
 filetype plugin indent on
