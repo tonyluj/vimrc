@@ -4,7 +4,6 @@ set t_Co=256
 syntax enable           " 语法高亮
 syntax on
 
-"set background=dark     " 设置背景是深色
 let g:solarized_termcolors=256
 colorscheme molokai
 
@@ -29,17 +28,12 @@ set fenc=utf-8          " 设定默认编码
 set encoding=utf-8
 set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936                             
 
-"filetype off            " 文件类型侦测 vundle.vim required
-"filetype plugin indent on
 set nobackup            " 从不备份
 set noswapfile          " No swap file  
 set noautowrite         " Never write a file unless I request it.
 set noautowriteall      " NEVER.
 set noautoread          " Don't automatically re-read changed files.
 set autochdir           " 设置文件浏览器目录为当前目录
-
-"set foldmethod=syntax 	"给予缩进或者语法进行代码折叠
-"set nofoldenable
 
 set laststatus=2        " 开启状态栏信息
 set cmdheight=1         " 命令行的高度为1
@@ -52,8 +46,6 @@ set ignorecase          " 搜索时忽略大小写
 set hlsearch            " 开启高亮显示结果
 set incsearch           " 开启增量搜索功能
 
-"set noshowmode
-
 let mapleader=";"
 
 inoremap jk <esc>
@@ -64,10 +56,5 @@ inoremap <c-l> <right>
 inoremap <c-h> <left>
 
 noremap <Leader>fm :Autoformat<CR>
-"nmap <Leader>b 0
-"nmap <Leader>e $
 
-"vnoremap <Leader>y "+y
-"nmap <Leader>p "+p
-
-set pastetoggle=<leader>gp
+set pastetoggle=<leader>pt

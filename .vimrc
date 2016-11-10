@@ -15,3 +15,9 @@ source ~/.vim/vimrc/tagbar.vim
 source ~/.vim/vimrc/molokai.vim
 source ~/.vim/vimrc/vim-go.vim
 source ~/.vim/vimrc/rust.vim
+"source ~/.vim/vimrc/syntastic.vim
+
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"

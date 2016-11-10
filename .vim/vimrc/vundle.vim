@@ -12,15 +12,28 @@ Plugin 'airblade/vim-gitgutter'
 
 " vim airline
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" powerline font
+Plugin 'powerline/fonts'
 
 " Awesome code comlete
 Plugin 'Valloric/YouCompleteMe'
+
+" syntasic
+"Plugin 'scrooloose/syntastic'
+
+" highlight conflict
+Plugin 'rhysd/conflict-marker.vim'
 
 " NERDTree tools to browse file
 Plugin 'scrooloose/nerdtree'
 
 " vim-python-pep8-indent
 Plugin 'hynek/vim-python-pep8-indent'
+
+" python-mode
+Plugin 'klen/python-mode'
 
 " vim-go
 Plugin 'fatih/vim-go'
@@ -36,9 +49,23 @@ Plugin 'majutsushi/tagbar'
 
 " ultiSnips
 Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 " delimitMate
-Plugin 'Raimondi/delimitMate'
+"Plugin 'Raimondi/delimitMate'
+Plugin 'jiangmiao/auto-pairs'
+
+" ctrlp
+Plugin 'ctrlpvim/ctrlp.vim'
+
+" multiple-cursor
+Plugin 'terryma/vim-multiple-cursors'
+
+" session manage
+Plugin 'vim-scripts/sessionman.vim'
+
+" json
+Plugin 'elzr/vim-json'
 
 " nerdcommenter
 Plugin 'scrooloose/nerdcommenter'
