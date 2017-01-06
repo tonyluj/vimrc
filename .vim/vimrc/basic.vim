@@ -1,5 +1,5 @@
 set nocompatible        " 关闭vi兼容模式
-set history=1024         " vim历史
+set history=1024        " vim历史
 set t_Co=256
 syntax enable           " 语法高亮
 syntax on
@@ -10,15 +10,15 @@ colorscheme molokai
 set number              " 显示行号
 set cursorline          " 突出显示当前行
 set backspace=indent,eol,start
-set cursorcolumn       " 光标垂直高亮
+set cursorcolumn        " 光标垂直高亮
 set ruler               " 打开状态栏标尺
  
 set tabstop=4           " 设置Tab键的宽度
 "set expandtab          " 用空格代替Tab
 set shiftwidth=4        " 换行时缩进4个空格
-"set autoindent          " 自动对齐,cindent, smartindent, autoindent
+"set autoindent         " 自动对齐,cindent, smartindent, autoindent
  
-set nowrap             " do not wrap text
+set nowrap              " do not wrap text
 set scrolloff=5         " keep 5 context lines above and below the cursor
 set wildmenu            " Menu completion on TAB
 set wildmode=full       " TAB cycles between all matching choices
@@ -47,14 +47,10 @@ set hlsearch            " 开启高亮显示结果
 set incsearch           " 开启增量搜索功能
 
 let mapleader=";"
-
 inoremap jk <esc>
-
 inoremap <c-j> <down>
 inoremap <c-k> <up>
 inoremap <c-l> <right>
 inoremap <c-h> <left>
-
 noremap <Leader>fm :Autoformat<CR>
-
-set pastetoggle=<leader>pt
+set pastetoggle=<leader>pt " enable paste mode

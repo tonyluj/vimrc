@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Add Vundle itself
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
@@ -17,11 +17,11 @@ Plugin 'vim-airline/vim-airline-themes'
 " powerline font
 Plugin 'powerline/fonts'
 
+" syntasic
+Plugin 'scrooloose/syntastic'
+
 " Awesome code comlete
 Plugin 'Valloric/YouCompleteMe'
-
-" syntasic
-"Plugin 'scrooloose/syntastic'
 
 " highlight conflict
 Plugin 'rhysd/conflict-marker.vim'
