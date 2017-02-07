@@ -17,6 +17,18 @@ Plugin 'vim-airline/vim-airline-themes'
 " powerline font
 Plugin 'powerline/fonts'
 
+" vim-python-pep8-indent
+Plugin 'hynek/vim-python-pep8-indent'
+
+" python-mode
+Plugin 'klen/python-mode'
+
+" vim-go
+Plugin 'fatih/vim-go'
+
+" rust
+Plugin 'rust-lang/rust.vim'
+
 " syntasic
 Plugin 'scrooloose/syntastic'
 
@@ -29,20 +41,8 @@ Plugin 'rhysd/conflict-marker.vim'
 " NERDTree tools to browse file
 Plugin 'scrooloose/nerdtree'
 
-" vim-python-pep8-indent
-Plugin 'hynek/vim-python-pep8-indent'
-
-" python-mode
-Plugin 'klen/python-mode'
-
-" vim-go
-Plugin 'fatih/vim-go'
-
 " vim-autoformat
 Plugin 'Chiel92/vim-autoformat'
-
-" rust
-Plugin 'rust-lang/rust.vim'
 
 " tagbar
 Plugin 'majutsushi/tagbar'

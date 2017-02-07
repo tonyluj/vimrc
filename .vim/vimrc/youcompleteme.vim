@@ -8,3 +8,5 @@ let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_min_num_of_chars_for_completion = 2
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_filetype_blacklist = {'tagbar': 1, 'nerdtree': 1}
+
+let g:ycm_rust_src_path = '/usr/src/rust/src'
