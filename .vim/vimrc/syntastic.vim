@@ -1,8 +1,8 @@
 "let g:syntastic_go_checkers = ['govet', 'go', 'golint']
 let g:syntastic_go_checkers = ['govet', 'go']
 
-let g:syntastic_rust_checkers = ['cargo']
-"let g:syntastic_rust_checkers = ['rustc']
+"let g:syntastic_rust_checkers = ['cargo']
+let g:syntastic_rust_checkers = ['rustc']
 
 let g:go_list_type = "quickfix"
 let g:syntastic_aggregate_errors = 1
