@@ -20,9 +20,6 @@ Plugin 'powerline/fonts'
 " vim-python-pep8-indent
 Plugin 'hynek/vim-python-pep8-indent'
 
-" python-mode
-Plugin 'klen/python-mode'
-
 " vim-go
 Plugin 'fatih/vim-go'
 
@@ -30,9 +27,12 @@ Plugin 'fatih/vim-go'
 Plugin 'rust-lang/rust.vim'
 
 " syntasic
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
+" ALE
+Plugin 'w0rp/ale'
 
 " Awesome code comlete
+Plugin 'rdnetto/YCM-Generator'
 Plugin 'Valloric/YouCompleteMe'
 
 " highlight conflict
@@ -66,6 +66,9 @@ Plugin 'vim-scripts/sessionman.vim'
 
 " json
 Plugin 'elzr/vim-json'
+
+" Dockerfile
+Plugin 'ekalinin/Dockerfile.vim'
 
 " nerdcommenter
 Plugin 'scrooloose/nerdcommenter'

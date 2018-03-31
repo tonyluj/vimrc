@@ -46,11 +46,3 @@ set ignorecase          " 搜索时忽略大小写
 set hlsearch            " 开启高亮显示结果
 set incsearch           " 开启增量搜索功能
 
-let mapleader=";"
-inoremap jk <esc>
-inoremap <c-j> <down>
-inoremap <c-k> <up>
-inoremap <c-l> <right>
-inoremap <c-h> <left>
-noremap <Leader>fm :Autoformat<CR>
-set pastetoggle=<leader>pt " enable paste mode
