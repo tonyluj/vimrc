@@ -6,3 +6,6 @@ inoremap <c-l> <right>
 inoremap <c-h> <left>
 noremap <Leader>fm :Autoformat<CR>
 set pastetoggle=<leader>pt " enable paste mode
+
+nnoremap <C-h> :bprevious<CR>
+nnoremap <C-l> :bnext<CR>

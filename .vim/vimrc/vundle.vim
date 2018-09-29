@@ -82,5 +82,8 @@ Plugin 'garyburd/go-explorer'
 " git wrapper
 Plugin 'tpope/vim-fugitive' 
 
+" linux coding style
+Plugin 'vivien/vim-linux-coding-style'
+
 call vundle#end()
 filetype plugin indent on

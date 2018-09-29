@@ -10,5 +10,8 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_filetype_blacklist = {'tagbar': 1, 'nerdtree': 1}
 
 let g:ycm_rust_src_path = '/usr/src/rust/src'
-
 let g:ycm_server_python_interpreter = '/usr/bin/python2'
+
+nnoremap <leader>gd :YcmCompleter GoTo<CR>
+nnoremap <leader>gt :YcmCompleter GetType<CR>
+nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>

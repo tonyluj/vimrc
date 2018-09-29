@@ -19,6 +19,7 @@ source ~/.vim/vimrc/ulitisnips.vim
 source ~/.vim/vimrc/youcompleteme.vim
 source ~/.vim/vimrc/vim-go.vim
 source ~/.vim/vimrc/rust.vim
+source ~/.vim/vimrc/vim-linux-coding-style.vim
 
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
