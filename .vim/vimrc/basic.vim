@@ -45,4 +45,3 @@ set ffs=unix            " Unix line ending
 set ignorecase          " 搜索时忽略大小写
 set hlsearch            " 开启高亮显示结果
 set incsearch           " 开启增量搜索功能
-
