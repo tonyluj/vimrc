@@ -121,4 +121,8 @@ Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 " c
 Plug 'justinmk/vim-syntax-extra', { 'for': ['c', 'cpp'] }
 
+" note
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
+
 call plug#end()

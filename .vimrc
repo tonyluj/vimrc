@@ -22,6 +22,7 @@ source ~/.vim/vimrc/vim-linux-coding-style.vim
 source ~/.vim/vimrc/gutentags.vim
 source ~/.vim/vimrc/choosewin.vim
 source ~/.vim/vimrc/grammarous.vim
+source ~/.vim/vimrc/vim-notes.vim
 
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
